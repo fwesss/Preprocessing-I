@@ -134,19 +134,15 @@ html,
 body {
     height: 100%;
 }
-
 /*******
 * Base *
 *******/
 #container {
-    color: #333333;
     font-family: 'Amiko', sans-serif;
 }
-
 #container header {
     background: linear-gradient(0deg, rgba(128, 128, 128, 0.14) 0%, rgba(128, 128, 128, 0.14) 3%, rgba(116, 116, 116, 0.14) 3%, rgba(116, 116, 116, 0.14) 100%), linear-gradient(0deg, rgba(57, 57, 57, 0.15) 0%, rgba(57, 57, 57, 0.15) 29%, rgba(196, 196, 196, 0.15) 29%, rgba(196, 196, 196, 0.15) 100%), linear-gradient(45deg, rgba(172, 172, 172, 0.29) 0%, rgba(172, 172, 172, 0.29) 61%, rgba(174, 174, 174, 0.29) 61%, rgba(174, 174, 174, 0.29) 100%), linear-gradient(135deg, #2b0b3e 0%, #2b0b3e 20%, #5e1c31 20%, #5e1c31 40%, #912d23 40%, #912d23 60%, #c43d16 60%, #c43d16 80%, #f74e08 80%, #f74e08 100%);
 }
-
 #container header #top-row {
     display: flex;
     justify-content: space-between;
@@ -155,39 +151,32 @@ body {
     padding: 20px 2%;
     color: ghostwhite;
 }
-
 #container header #top-row .col {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 33%;
 }
-
 #container header #top-row #name h1 {
     font-family: 'Exo 2', sans-serif;
     font-size: 3.5rem;
     font-style: italic;
 }
-
 #container header #top-row #name p {
     padding-top: 15px;
     font-size: 2.25rem;
 }
-
 #container header #top-row #headshot {
     padding-left: 7%;
     padding-right: 7%;
     border-radius: 50%;
 }
-
 #container header #top-row #contact {
     font-size: 1.5rem;
 }
-
 #container header #navbar {
     background: azure;
 }
-
 #container header #navbar nav {
     display: flex;
     justify-content: space-between;
@@ -196,17 +185,14 @@ body {
     margin: 0 auto;
     padding: 20px 2%;
 }
-
 #container header #navbar nav a {
-    color: #333333;
+    color: #4f5a65;
     font-size: 1.5rem;
     text-decoration: none;
 }
-
 #container header #navbar nav a:hover {
     color: #4b5555;
 }
-
 #container main {
     display: flex;
     justify-content: space-between;
@@ -215,19 +201,15 @@ body {
     margin: 0 auto;
     padding: 40px 2%;
 }
-
 #container main #about {
     width: 100%;
 }
-
 #container main .col {
     width: 65%;
 }
-
 #container main .col:first-of-type {
     width: 30%;
 }
-
 #container main h2 {
     padding: 15px 0 5px;
     border-bottom: 2px solid #c43d16;
@@ -235,35 +217,29 @@ body {
     font-family: 'Alegreya', serif;
     font-size: 2.25rem;
 }
-
 #container main h3 {
     padding: 10px 0 5px;
     color: #4b5555;
     font-size: 1.5rem;
 }
-
 #container main p {
     padding: 5px 0 15px;
     color: #4f5a65;
     font-size: 1.08rem;
 }
-
 #container main ul {
     padding: 10px 0;
 }
-
 #container main li {
     padding: 3px 0;
     color: #4f5a65;
     font-size: 1.08rem;
 }
-
 #container main .title,
 #container main .timespan {
     padding: 3px 0;
     font-size: 1.25rem;
 }
-
 /**********
 * Mixins *
 **********/
@@ -271,12 +247,14 @@ body {
     max-width: 960px;
     margin: 0 auto;
 }
-
 .flex-between {
     display: flex;
     justify-content: space-between;
 }
 
+/************
+* Variables *
+************/
 /********
 * State *
 ********/
@@ -297,7 +275,6 @@ body {
         padding: 0;
     }
 }
-
 @media screen and (max-width: 500px) {
     #container main {
         flex-direction: column;
@@ -312,5 +289,4 @@ body {
         text-align: center;
     }
 }
-
 /*# sourceMappingURL=index.css.map */
