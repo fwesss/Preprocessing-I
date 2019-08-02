@@ -140,6 +140,10 @@ body {
 #container {
   font-family: 'Amiko', sans-serif;
 }
+
+#container p {
+    line-height: 1.25;
+}
 #container header {
   background: linear-gradient(0deg, rgba(128, 128, 128, 0.14) 0%, rgba(128, 128, 128, 0.14) 3%, rgba(116, 116, 116, 0.14) 3%, rgba(116, 116, 116, 0.14) 100%), linear-gradient(0deg, rgba(57, 57, 57, 0.15) 0%, rgba(57, 57, 57, 0.15) 29%, rgba(196, 196, 196, 0.15) 29%, rgba(196, 196, 196, 0.15) 100%), linear-gradient(45deg, rgba(172, 172, 172, 0.29) 0%, rgba(172, 172, 172, 0.29) 61%, rgba(174, 174, 174, 0.29) 61%, rgba(174, 174, 174, 0.29) 100%), linear-gradient(135deg, #2b0b3e 0%, #2b0b3e 20%, #5e1c31 20%, #5e1c31 40%, #912d23 40%, #912d23 60%, #c43d16 60%, #c43d16 80%, #f74e08 80%, #f74e08 100%);
 }
@@ -263,12 +267,10 @@ body {
     align-items: center;
     text-align: center;
   }
-
   #container header #top-row .col {
     width: 100%;
     height: 200px;
   }
-
   #container header #top-row #headshot {
     width: 200px;
     padding: 0;
@@ -278,11 +280,9 @@ body {
   #container main {
     flex-direction: column;
   }
-
   #container main .col {
     width: 100%;
   }
-
   #container main .col:first-of-type {
     width: 100%;
     text-align: center;
