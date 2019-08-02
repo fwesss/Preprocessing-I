@@ -2,18 +2,133 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <title>My Resume</title>
+    <title>My Resume</title>
 
-  <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Amiko|Exo+2&display=swap"
+          rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 
-  <!--[if lt IE 9]>
+    <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
+    <![endif]-->
 </head>
 
 <body>
-  <h1>My Resume</h1>
+<div id="container">
+    <header>
+        <div id="top-row">
+            <div class="col" id="name">
+                <h1>Rodney Chapman</h1>
+                <p>Web Developer</p>
+            </div>
+
+            <img alt="Rodney Chapman headshot" class="col" id="headshot"
+                 src="images/neo.webp">
+
+            <address class="col" id="contact">
+                (202) 555 - 0137
+                <br>
+                amo7ame@mkf.luk2.com
+                <br>
+                myfakewebsite.com
+                <br>
+                @myfaketwitter
+            </address>
+        </div>
+
+        <div id="navbar">
+            <nav>
+                <a href="#about">About</a>
+                <a href="#work">Work History</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a 32 year old business person with a passion for work.
+                Nothing is as fulfilling as work. It doesn't even matter
+                what I'm actually doing at work. 5am - 9pm everyday, I will not
+                leave my chair
+                until the job is done.
+            </p>
+
+            <p>
+                Outside of work, there is just waiting for more work because I
+                can't get enough. If I could forgo sleep to provide even
+                more productivity, I would do so happily. There is no way there
+                is a better employee than me and I am a must have for your
+                company. Please hire me for money.
+            </p>
+        </section>
+
+        <section class="col" id="work">
+            <h2>Experience</h2>
+
+            <h3>Metacortex</h3>
+            <p class="title">Central Functionality Producer</p>
+            <p class="timespan">February 2017 - Present</p>
+            <p>
+                Currently, I produce all of the central functionality of our
+                great product. The rest of our 1,500 employee company works on
+                secondary functionality because they only slow me down. Without
+                my abilities, this company would cease to work. I am the
+                linchpin, cornerstone, greatest asset, and pillar of this
+                corporation.
+            </p>
+
+            <h3>Vandelay Industries</h3>
+            <p class="title">Principal Implementation Specialist</p>
+            <p class="timespan">March 2016 - April 2016</p>
+            <p>
+                It only took me one month to make all positions at Vandelay
+                Industries redundant. This includes my own. The company is now
+                defunct.
+            </p>
+
+            <h3>Nakatomi Corporation</h3>
+            <p class="title">Investor Resonance Facilitator</p>
+            <p class="timespan">January 2015 - March 2016</p>
+            <p>
+                Prior to joining Nakatomi, our board room was chaotic and in
+                constant disarray. By amplifying proprietary frequencies
+                through the video conference feed, I was able to soothe the
+                minds of our investors and bring about harmony in our board
+                meetings. Synergy increased by 312.73% and the company was
+                transformed.
+            </p>
+        </section>
+
+        <div class="col">
+            <section id="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Knots</li>
+                    <li>Juggling</li>
+                    <li>Arm Wrestling</li>
+                    <li>Lock Picking</li>
+                    <li>Whistling</li>
+                    <li>Web Development</li>
+                </ul>
+            </section>
+
+            <section id="education">
+                <h2>Education</h2>
+                <h3>University of Los Angeles</h3>
+                <p class="timespan">2010 - 2014</p>
+                <ul>
+                    <li>BA Prehistoric Philosphy</li>
+                    <li>Golf Management minor</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+</div>
 </body>
 </html>
